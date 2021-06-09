@@ -2,6 +2,8 @@
     display:flex;
     justify-content:flex-end;
     position:fixed;
+    background-color:rosybrown;
+    
 }
 
 .nav{
@@ -66,7 +68,7 @@
 
 
 .containergrid{
-    background-color:aliceblue;
+    background-color:whitesmoke;
     padding:10px;
     display:grid;
     gap:1rem;
@@ -92,7 +94,7 @@ button{
     padding:10px;
     border: none;
     border-radius: 20px;
-    font-size:20px;
+    font-size:15px;
     transition:all 0.5s ease;
 
 }
@@ -108,6 +110,11 @@ button:hover{
     height:auto;
     width:80%;
     margin-right: 5%;
+    transition:all .2s ease-in-out;
+}
+
+.center:hover{
+   transform:scale(1.1);
 }
 
 #centerGA{
@@ -210,12 +217,7 @@ h2{
     grid-area:footer;
 }
 
-/* .footerlist{
-    vertical-align:bottom;
-    
 
-}
- */
 li{
     list-style-type:none;
     flex-direction:row;
@@ -224,15 +226,4 @@ li{
 
 }
 
-<!--My work section constructed using CSS Grid-->
-
-.workGrid{
-    display:grid;
-}
-
-.header{
-    grid-area:header;
-    grid-template-areas:"header header header header"
-    width:10px;
-}
 
